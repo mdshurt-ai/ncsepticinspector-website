@@ -1,0 +1,102 @@
+{
+  "path": "/service-areas/",
+  "title": "Septic Inspection Service Areas, Western NC | NC Septic Inspector",
+  "description": "Septic inspections across Burke, Catawba, Caldwell, McDowell, Watauga, Alexander and eastern Buncombe counties: Morganton, Hickory, Lenoir, Marion, Boone and more.",
+  "og_image": "woods-locating",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/service-areas/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://ncsepticinspector.com/service-areas/"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://ncsepticinspector.com/service-areas/#towns",
+        "name": "Towns served by NC Septic Inspector",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Morganton, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-morganton-nc/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Hickory, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-hickory-nc/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lenoir, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-lenoir-nc/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Marion, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-marion-nc/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Boone, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-boone-nc/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Black Mountain, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-black-mountain-nc/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Old Fort, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-old-fort-nc/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Newton, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-newton-nc/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Conover, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-conover-nc/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Maiden, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-maiden-nc/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Taylorsville, NC",
+            "url": "https://ncsepticinspector.com/septic-inspection-taylorsville-nc/"
+          }
+        ]
+      }
+    ]
+  }
+}

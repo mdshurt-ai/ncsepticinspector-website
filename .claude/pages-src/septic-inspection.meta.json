@@ -1,0 +1,200 @@
+{
+  "path": "/septic-inspection/",
+  "title": "Septic Inspection in Western NC | NC Septic Inspector",
+  "description": "Point-of-sale septic inspections by NC On-Site Wastewater Inspector #6007I: tank located and opened, components evaluated, drain field checked, photo report.",
+  "og_image": "tank-access",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/septic-inspection/#service",
+        "name": "Septic System Inspection",
+        "serviceType": "Point-of-sale septic system inspection",
+        "url": "https://ncsepticinspector.com/septic-inspection/",
+        "description": "Septic inspections by an NC On-Site Wastewater Inspector following 21 NCAC 39: locating the system, uncovering and opening the tank, evaluating the tank, pump tank and components, checking the drain field, and a written report with photos.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Morganton, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Burke County, NC"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Hickory, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Catawba County, NC"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Lenoir, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Caldwell County, NC"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Marion, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "McDowell County, NC"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Boone, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Watauga County, NC"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Black Mountain, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Buncombe County, NC"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Old Fort, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "McDowell County, NC"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Newton, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Catawba County, NC"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Conover, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Catawba County, NC"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Maiden, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Catawba County, NC"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Taylorsville, NC",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Alexander County, NC"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/septic-inspection/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Septic Inspection",
+            "item": "https://ncsepticinspector.com/septic-inspection/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/septic-inspection/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long does a septic inspection take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Plan on a couple of hours on site, longer if the tank is deep, on a steep lot, or hard to find. Pumping at the same visit adds the pumping company's time. The written report follows after the inspection."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How far ahead should I book a septic inspection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "As soon as the contract is signed. The digging, a pumping company if you want one, and any county records all take coordination, and your due diligence period doesn't pause for them. Call or book online with the address and your deadline."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I be there for the septic inspection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Buyers and agents are welcome, and the end of the inspection is a good time to see the open tank and ask questions. If you can't make it, the photos in the report show the same things."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if the septic tank can't be found?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Then finding it is the first job. The county permit or layout drawing, if one exists, narrows it down, and so does anything the owner remembers. Some older systems have no permit at all; Buncombe County didn't issue septic permits before 1977. The report states whatever limited the inspection, as the rules require."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you put the yard back after digging up the septic tank?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The hole over the lid is filled back in when the inspection is done. It's still a dug spot in the lawn for a while, so sellers should expect that."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does a septic inspection include the well?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The septic inspection records what type of water supply the property has, but well water testing is a separate service. It can be added to the same visit through Inspect-All Home Inspections."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the difference between a septic inspection and a county permit or existing system verification?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A county permit shows what was approved, sometimes decades ago. Some counties also offer an existing-system check for adding a bedroom or a structure. Neither one opens the tank and evaluates its condition today. That's what the point-of-sale inspection does."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a septic inspection a pass or fail?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It's an evaluation of the visible condition of the system that day, with findings and referrals where they're warranted. Lenders, buyers and sellers then decide what to do with that information."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

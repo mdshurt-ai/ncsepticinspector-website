@@ -1,0 +1,84 @@
+{
+  "path": "/septic-inspection-taylorsville-nc/",
+  "title": "Septic Inspection in Taylorsville, NC | NC Septic Inspector",
+  "description": "Septic inspections in Taylorsville and Alexander County by Inspector #6007I. Farms, homesteads and lake homes where septic is the norm; Alexander County records.",
+  "og_image": "drainfield-marked",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/septic-inspection-taylorsville-nc/#service",
+        "name": "Septic Inspection in Taylorsville, NC",
+        "serviceType": "Point-of-sale septic system inspection",
+        "url": "https://ncsepticinspector.com/septic-inspection-taylorsville-nc/",
+        "description": "Septic inspections in Taylorsville, NC and Alexander County by NC On-Site Wastewater Inspector #6007I, following 21 NCAC 39: tank located and opened, components evaluated, drain field checked, written report with photos.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Taylorsville, NC",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Alexander County, NC"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/septic-inspection-taylorsville-nc/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://ncsepticinspector.com/service-areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Taylorsville",
+            "item": "https://ncsepticinspector.com/septic-inspection-taylorsville-nc/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/septic-inspection-taylorsville-nc/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you inspect septic systems on farms and large rural lots?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Expect the locating step to take longer on a large lot with no layout drawing, and tell me if equipment has been driven over the drain field area; that's one of the things the inspection looks at."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I get the Alexander County septic permit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Call or visit Alexander County Environmental Health at 151 W Main Ave., Taylorsville, 828-632-1000. There's no online search. Ask for the permit, any layout drawing and the soil evaluation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you serve Bethlehem, Stony Point and Hiddenite?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. All of Alexander County is in my service area, including the Bethlehem community on Lake Hickory."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

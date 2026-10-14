@@ -1,0 +1,84 @@
+{
+  "path": "/septic-inspection-newton-nc/",
+  "title": "Septic Inspection in Newton, NC | NC Septic Inspector",
+  "description": "Septic inspections in Newton, NC by NC On-Site Wastewater Inspector #6007I. Catawba County Environmental Health is in Newton; here's how its septic records work.",
+  "og_image": "tank-lid-open",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/septic-inspection-newton-nc/#service",
+        "name": "Septic Inspection in Newton, NC",
+        "serviceType": "Point-of-sale septic system inspection",
+        "url": "https://ncsepticinspector.com/septic-inspection-newton-nc/",
+        "description": "Septic inspections in Newton, NC and Catawba County by NC On-Site Wastewater Inspector #6007I, following 21 NCAC 39: tank located and opened, components evaluated, drain field checked, written report with photos.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Newton, NC",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Catawba County, NC"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/septic-inspection-newton-nc/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://ncsepticinspector.com/service-areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Newton",
+            "item": "https://ncsepticinspector.com/septic-inspection-newton-nc/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/septic-inspection-newton-nc/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I request a Catawba County septic permit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Through the online permit-copy request on the county's Environmental Health forms page, or by emailing EHAdmin@catawbacountync.gov. Include the property address and parcel number."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "The house has more bedrooms than the permit. What happens?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The report notes the difference, because the state's inspection rule starts with that comparison. What happens next is between the buyer, the seller and the county: a system permitted for three bedrooms is designed for three bedrooms of wastewater, and the county's environmental health office is the authority on what it would take to change that."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you serve Claremont, Startown and Catawba?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the area around Newton is a regular part of my work, including properties on the Catawba River and toward Lookout Shoals."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

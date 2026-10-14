@@ -1,0 +1,98 @@
+{
+  "_comment": "Single source of business facts for the NC Septic Inspector site. build.js reads this. Change here, rebuild. sitemap_lastmod must stay ISO (YYYY-MM-DD) because the sitemap protocol requires it; it is not a filename.",
+  "site": "https://ncsepticinspector.com",
+  "brand": "NC Septic Inspector",
+  "legal_name": "Inspect-All Home Inspections",
+  "person": "Shannan Hurt",
+  "city": "Morganton, NC",
+  "phone": "828-443-2371",
+  "tel": "+18284432371",
+  "email": "inspectallnc@gmail.com",
+  "sister_site": "https://inspectallnc.com",
+  "google_profile": "https://business.google.com/v/inspect-all-home-inspections/03262778571836678197/1300/_",
+  "spectora_schedule": "https://app.spectora.com/home-inspectors/my-inspection-company-2b37bb3619/schedule",
+  "spectora_sample_report": "https://app.spectora.com/home-inspectors/my-inspection-company-2b37bb3619/sample_report?sample_id=34834",
+  "credentials": [
+    "NC On-Site Wastewater Inspector #6007I",
+    "NC Home Inspector #4327",
+    "NC Real Estate Broker #213426"
+  ],
+  "sitemap_lastmod": "2026-10-14",
+  "towns": [
+    {
+      "name": "Morganton",
+      "slug": "morganton-nc",
+      "county": "Burke"
+    },
+    {
+      "name": "Hickory",
+      "slug": "hickory-nc",
+      "county": "Catawba"
+    },
+    {
+      "name": "Lenoir",
+      "slug": "lenoir-nc",
+      "county": "Caldwell"
+    },
+    {
+      "name": "Marion",
+      "slug": "marion-nc",
+      "county": "McDowell"
+    },
+    {
+      "name": "Boone",
+      "slug": "boone-nc",
+      "county": "Watauga"
+    },
+    {
+      "name": "Black Mountain",
+      "slug": "black-mountain-nc",
+      "county": "Buncombe"
+    },
+    {
+      "name": "Old Fort",
+      "slug": "old-fort-nc",
+      "county": "McDowell"
+    },
+    {
+      "name": "Newton",
+      "slug": "newton-nc",
+      "county": "Catawba"
+    },
+    {
+      "name": "Conover",
+      "slug": "conover-nc",
+      "county": "Catawba"
+    },
+    {
+      "name": "Maiden",
+      "slug": "maiden-nc",
+      "county": "Catawba"
+    },
+    {
+      "name": "Taylorsville",
+      "slug": "taylorsville-nc",
+      "county": "Alexander"
+    }
+  ],
+  "pages": [
+    "septic-inspection",
+    "pumping",
+    "pre-listing-septic-inspection",
+    "for-agents",
+    "septic-records",
+    "service-areas",
+    "septic-inspection-morganton-nc",
+    "septic-inspection-hickory-nc",
+    "septic-inspection-lenoir-nc",
+    "septic-inspection-marion-nc",
+    "septic-inspection-boone-nc",
+    "septic-inspection-black-mountain-nc",
+    "septic-inspection-old-fort-nc",
+    "septic-inspection-newton-nc",
+    "septic-inspection-conover-nc",
+    "septic-inspection-maiden-nc",
+    "septic-inspection-taylorsville-nc",
+    "schedule"
+  ]
+}

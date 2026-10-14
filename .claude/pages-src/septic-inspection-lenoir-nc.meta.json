@@ -1,0 +1,84 @@
+{
+  "path": "/septic-inspection-lenoir-nc/",
+  "title": "Septic Inspection in Lenoir, NC | NC Septic Inspector",
+  "description": "Septic inspections in Lenoir and Caldwell County by NC On-Site Wastewater Inspector #6007I. Older rural systems, Wilson Creek flood areas, Caldwell County records.",
+  "og_image": "homemade-tank-lid-crop",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/septic-inspection-lenoir-nc/#service",
+        "name": "Septic Inspection in Lenoir, NC",
+        "serviceType": "Point-of-sale septic system inspection",
+        "url": "https://ncsepticinspector.com/septic-inspection-lenoir-nc/",
+        "description": "Septic inspections in Lenoir, NC and Caldwell County by NC On-Site Wastewater Inspector #6007I, following 21 NCAC 39: tank located and opened, components evaluated, drain field checked, written report with photos.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Lenoir, NC",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Caldwell County, NC"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/septic-inspection-lenoir-nc/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://ncsepticinspector.com/service-areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lenoir",
+            "item": "https://ncsepticinspector.com/septic-inspection-lenoir-nc/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/septic-inspection-lenoir-nc/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "The house is old and nobody knows if there's a permit. Can you still inspect it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Many Caldwell County systems predate the county's files. The inspection then starts from the ground: I locate the tank, open it, evaluate what's there, and the report states what records were available and what wasn't."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you cover Collettsville, Patterson and the Wilson Creek area?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. If the property flooded during Helene, tell me when you book so I can plan extra time for the drain field area and for finding a tank that may have shifted or been buried deeper by silt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I get the Caldwell County septic permit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the Septic System Record Request form on Caldwell County Environmental Health's septic and wells page, or call 828-426-8579. Ask for the permit, the layout drawing and the soil evaluation."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

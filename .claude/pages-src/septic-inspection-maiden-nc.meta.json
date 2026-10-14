@@ -1,0 +1,84 @@
+{
+  "path": "/septic-inspection-maiden-nc/",
+  "title": "Septic Inspection in Maiden, NC | NC Septic Inspector",
+  "description": "Septic inspections in Maiden, NC on both sides of the county line by Inspector #6007I. Catawba and Lincoln County records, rural septic along the US 321 corridor.",
+  "og_image": "tank-interior",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/septic-inspection-maiden-nc/#service",
+        "name": "Septic Inspection in Maiden, NC",
+        "serviceType": "Point-of-sale septic system inspection",
+        "url": "https://ncsepticinspector.com/septic-inspection-maiden-nc/",
+        "description": "Septic inspections in Maiden, NC and Catawba County by NC On-Site Wastewater Inspector #6007I, following 21 NCAC 39: tank located and opened, components evaluated, drain field checked, written report with photos.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Maiden, NC",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Catawba County, NC"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/septic-inspection-maiden-nc/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://ncsepticinspector.com/service-areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Maiden",
+            "item": "https://ncsepticinspector.com/septic-inspection-maiden-nc/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/septic-inspection-maiden-nc/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I know which county my Maiden property is in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The county tax record for the parcel. Catawba County's office is in Newton; Lincoln County's is in Lincolnton. The septic permit is with whichever county the parcel sits in."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you inspect the septic and test the well on the same visit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The septic inspection is this site's service; well water testing is added through Inspect-All Home Inspections, and both happen in one trip."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you cover the Lincoln County side, toward Lincolnton and Denver?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The Maiden area on both sides of the line is part of my service area, and I'll go further into Lincoln County on request."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

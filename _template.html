@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="canonical" href="{{SITE}}{{PATH}}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NC Septic Inspector">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="{{SITE}}{{PATH}}">
+  <meta property="og:image" content="{{SITE}}/images/{{OG_IMAGE}}.jpg">
+  <meta name="theme-color" content="#2a2a2c">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css">
+  <script type="application/ld+json">
+{{SCHEMA_JSON}}
+  </script>
+  <script type="application/ld+json">
+{{BUSINESS_JSON}}
+  </script>
+</head>
+<body>
+
+{{ICONS}}
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="header">
+  <nav class="wrap nav" aria-label="Primary">
+    <a href="/" class="logo" aria-label="NC Septic Inspector, home"><img src="/images/logo.svg" alt="NC Septic Inspector" width="1182" height="384"></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/septic-inspection/">Septic Inspection<svg aria-hidden="true"><use href="#i-chev-r"/></svg></a></li>
+      <li><a href="/pre-listing-septic-inspection/">Sellers<svg aria-hidden="true"><use href="#i-chev-r"/></svg></a></li>
+      <li><a href="/for-agents/">Agents<svg aria-hidden="true"><use href="#i-chev-r"/></svg></a></li>
+      <li><a href="/septic-records/">County Records<svg aria-hidden="true"><use href="#i-chev-r"/></svg></a></li>
+      <li><a href="/service-areas/">Service Areas<svg aria-hidden="true"><use href="#i-chev-r"/></svg></a></li>
+      <li><a href="#contact">Contact<svg aria-hidden="true"><use href="#i-chev-r"/></svg></a></li>
+      <li class="nav-book"><a href="/schedule/">Book Online<svg aria-hidden="true"><use href="#i-chev-r"/></svg></a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:{{TEL}}" class="btn btn-primary btn-sm call-btn" aria-label="Call {{PHONE}}"><svg aria-hidden="true"><use href="#i-phone"/></svg><span class="num">{{PHONE}}</span><span class="short" aria-hidden="true">Call</span></a>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
+        <svg class="ic-menu" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="ic-close" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+{{MAIN}}
+
+{{CONTACT}}
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="/images/logo.svg" alt="NC Septic Inspector" width="1182" height="384" loading="lazy">
+        <p>Independent septic inspections in the foothills and mountains of Western North Carolina. I inspect; I don't pump or repair.</p>
+        <p class="footer-contact"><a href="tel:{{TEL}}">{{PHONE}}</a><span aria-hidden="true"> &middot; </span><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+        {{GOOGLE_RATING_BADGE}}
+        <div class="social" role="group" aria-label="Find the inspector online">
+          <a href="{{GOOGLE_REVIEWS_URL}}" data-social="google" aria-label="Google reviews" title="Google reviews" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#s-google"/></svg></a>
+          <a href="#" data-social="facebook" aria-label="Facebook" title="Facebook"><svg aria-hidden="true"><use href="#s-facebook"/></svg></a>
+          <a href="#" data-social="instagram" aria-label="Instagram" title="Instagram"><svg aria-hidden="true"><use href="#s-instagram"/></svg></a>
+          <a href="#" data-social="youtube" aria-label="YouTube" title="YouTube"><svg aria-hidden="true"><use href="#s-youtube"/></svg></a>
+          <a href="#" data-social="nextdoor" aria-label="Nextdoor" title="Nextdoor"><svg aria-hidden="true"><use href="#s-nextdoor"/></svg></a>
+          <a href="#" data-social="linkedin" aria-label="LinkedIn" title="LinkedIn"><svg aria-hidden="true"><use href="#s-linkedin"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Septic</h4>
+        <ul>
+          <li><a href="/septic-inspection/">Septic inspections</a></li>
+          <li><a href="/pre-listing-septic-inspection/">Pre-listing inspections</a></li>
+          <li><a href="/for-agents/">For agents &amp; inspectors</a></li>
+          <li><a href="/septic-records/">County septic records</a></li>
+          <li><a href="/schedule/">Book online</a></li>
+          <li><a href="{{SPECTORA_SAMPLE}}" target="_blank" rel="noopener">Sample report</a></li>
+          <li><a href="{{SISTER_SITE}}/" rel="noopener">Home inspections: Inspect-All</a></li>
+        </ul>
+      </div>
+      <div class="towns">
+        <h4><a href="/service-areas/">Service areas</a></h4>
+        <ul>
+{{AREA_LINKS}}
+          <li><a href="/service-areas/">All service areas</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="yr">2026</span> NC Septic Inspector, a service of <a href="{{SISTER_SITE}}/" rel="noopener">Inspect-All Home Inspections</a> &middot; {{PERSON}} &middot; {{CITY}}</p>
+      <p class="footer-creds"><span>NC On-Site Wastewater Inspector #6007I</span><span>NC Home Inspector #4327</span><span>NC Real Estate Broker #213426</span></p>
+    </div>
+  </div>
+</footer>
+
+<!-- Fixed call / book bar on phones -->
+<nav class="cta-bar" id="cta-bar" aria-label="Call or book">
+  <a href="tel:{{TEL}}" class="btn btn-primary"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call {{PHONE}}</a>
+  <a href="/schedule/" class="btn btn-dark">Book Online</a>
+</nav>
+
+<script src="/js/site.js"></script>
+</body>
+</html>

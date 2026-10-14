@@ -1,0 +1,84 @@
+{
+  "path": "/septic-inspection-morganton-nc/",
+  "title": "Septic Inspection in Morganton, NC | NC Septic Inspector",
+  "description": "Septic inspections in Morganton and Burke County by NC On-Site Wastewater Inspector #6007I. Lake James and Lake Rhodhiss lots, older homes, Burke County records.",
+  "og_image": "excavator-brick-home",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/septic-inspection-morganton-nc/#service",
+        "name": "Septic Inspection in Morganton, NC",
+        "serviceType": "Point-of-sale septic system inspection",
+        "url": "https://ncsepticinspector.com/septic-inspection-morganton-nc/",
+        "description": "Septic inspections in Morganton, NC and Burke County by NC On-Site Wastewater Inspector #6007I, following 21 NCAC 39: tank located and opened, components evaluated, drain field checked, written report with photos.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Morganton, NC",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Burke County, NC"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/septic-inspection-morganton-nc/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://ncsepticinspector.com/service-areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Morganton",
+            "item": "https://ncsepticinspector.com/septic-inspection-morganton-nc/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/septic-inspection-morganton-nc/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you inspect septic systems on Lake James?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Lake James lots on both the Burke and McDowell sides are a regular part of my work. Tell me when you book if the lot is steep or the tank is near the water; it affects how long the inspection takes and what equipment I bring."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is the Burke County septic permit office?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Burke County Environmental Health is at 200 Avery Avenue in Morganton, 828-764-9000. Agents can use the county's \"Septic Requests for Realtors\" form to ask for a copy of an existing permit or layout."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you do the home inspection the same day?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, through my other company, Inspect-All Home Inspections. Home inspection, septic inspection, radon and well water testing can all be scheduled for one visit."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

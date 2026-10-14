@@ -1,0 +1,161 @@
+{
+  "note": "Septic gallery. Captions and alt text carried over from inspectallnc.com where every caption was rechecked twice. Where a defect isn't obvious the caption names only the object.",
+  "photos": [
+    {
+      "file": "tank-lid-open",
+      "caption": "Septic tank lid removed",
+      "cat": "septic",
+      "alt": "Concrete septic tank lid with a yellow lid lifter resting beside the open access hole, red clay on a blue tarp"
+    },
+    {
+      "file": "septic-inlet",
+      "caption": "Septic tank pipe tee",
+      "cat": "septic",
+      "alt": "Looking into an open septic tank at a sludge-coated white PVC pipe tee above dark liquid"
+    },
+    {
+      "file": "inlet-flow-test",
+      "caption": "Water flowing into septic tank",
+      "cat": "septic",
+      "alt": "Water pours from a pipe opening in a concrete septic tank wall into the liquid below, with roots hanging above"
+    },
+    {
+      "file": "septic-filter",
+      "caption": "Septic tank access opening",
+      "cat": "septic",
+      "alt": "Excavated septic tank opening with dark liquid and a mud-covered PVC tee topped by a red slotted cap with a handle"
+    },
+    {
+      "file": "tank-pumping",
+      "caption": "Septic tank pumping",
+      "cat": "septic",
+      "alt": "Green pump hose running into an open concrete septic tank with dark liquid, and a reddish pipe end visible inside"
+    },
+    {
+      "file": "tank-interior",
+      "caption": "Inside a pumped septic tank",
+      "cat": "septic",
+      "alt": "Interior of an empty concrete septic tank after pumping"
+    },
+    {
+      "file": "pipe-interior",
+      "caption": "Cracked pipe with soil inside",
+      "cat": "septic",
+      "alt": "View inside a cracked pipe partly filled with soil and debris"
+    },
+    {
+      "file": "drainfield-marked",
+      "caption": "Locating the septic tank",
+      "cat": "septic",
+      "alt": "Backyard with the septic tank location outlined behind a brick home"
+    },
+    {
+      "file": "tank-dig",
+      "caption": "Digging to the septic tank lid",
+      "cat": "septic",
+      "alt": "Shallow square hole dug in a fenced lawn, with a shovel stuck in red clay piled on a blue tarp"
+    },
+    {
+      "file": "woods-excavation",
+      "caption": "Uncovering a septic tank in the woods",
+      "cat": "septic",
+      "alt": "Mini excavator in the woods beside an open septic tank access, with its concrete lid lying in red clay"
+    },
+    {
+      "file": "tank-marked",
+      "caption": "Septic tank outlined in the yard",
+      "cat": "septic",
+      "alt": "Grassy fenced yard with an orange rectangle drawn on the lawn outlining the buried septic tank"
+    },
+    {
+      "file": "excavator-site",
+      "caption": "Septic job site, tank located and marked",
+      "cat": "septic",
+      "alt": "Orange mini excavator and tool bags on a lawn with marker flags in front of a wood-sided house with a deck"
+    },
+    {
+      "file": "outlet-pipe",
+      "caption": "Septic pipe opening",
+      "cat": "septic",
+      "alt": "Close view into a dark, round pipe opening covered with cobwebs, with grimy soil and straw around it"
+    },
+    {
+      "file": "tank-access",
+      "caption": "Septic tank access opened",
+      "cat": "septic",
+      "alt": "Open septic tank access hole with the concrete lid at its edge and a shovel lying in the grass behind"
+    },
+    {
+      "file": "root-intrusion-tank",
+      "caption": "Tree roots growing into septic tank",
+      "cat": "septic",
+      "alt": "Open septic tank access beside a tree, with roots and a mat of fine roots hanging into dark wastewater"
+    },
+    {
+      "file": "woods-locating",
+      "caption": "Locating a septic tank on a wooded lot",
+      "cat": "septic",
+      "alt": "Orange mini excavator in a wooded lot with small blue marker flags in the ground nearby"
+    },
+    {
+      "file": "root-intrusion-closeup",
+      "caption": "Tree roots inside septic tank",
+      "cat": "septic",
+      "alt": "Open septic tank with wastewater and thick mats of tree roots growing over the concrete inside"
+    },
+    {
+      "file": "homemade-tank-excavation",
+      "caption": "Uncovering an old homemade tank",
+      "cat": "septic",
+      "alt": "Mini excavator uncovering a large old homemade septic tank beside a shed"
+    },
+    {
+      "file": "homemade-tank-lid-crop",
+      "caption": "Cracked homemade tank lid",
+      "cat": "septic",
+      "alt": "Broken concrete slab lid on an old homemade septic tank"
+    },
+    {
+      "file": "homemade-tank-brick",
+      "caption": "Corroded pipe in homemade tank",
+      "cat": "septic",
+      "alt": "Inside an old homemade septic tank with concrete and brick walls, wastewater, and a heavily corroded pipe protruding from the wall"
+    },
+    {
+      "file": "excavator-brick-home",
+      "caption": "Uncovering a buried septic tank",
+      "cat": "septic",
+      "alt": "Mini excavator digging beside a two-story brick home"
+    },
+    {
+      "file": "homemade-tank-interior",
+      "caption": "Large hole in tank wall",
+      "cat": "septic",
+      "alt": "Inside an old homemade septic tank, a large ragged hole is broken through the lower concrete wall"
+    },
+    {
+      "file": "homemade-tank-uncovered",
+      "caption": "Homemade tank lid exposed",
+      "cat": "septic",
+      "alt": "Excavated concrete lid of an old homemade septic tank next to a brick house"
+    },
+    {
+      "file": "excavating-by-deck",
+      "caption": "Uncovering a septic tank beside a deck",
+      "cat": "septic",
+      "alt": "Mini excavator digging a hole beside wooden deck stairs, with shovels and a sledgehammer nearby"
+    },
+    {
+      "file": "tank-paint-marked-crop",
+      "caption": "Tank location marked in paint",
+      "cat": "septic",
+      "alt": "Orange paint marking the septic tank outline beside a home"
+    },
+    {
+      "file": "excavator-yard",
+      "caption": "Septic inspection in progress",
+      "cat": "septic",
+      "alt": "Mini excavator in a backyard during a septic inspection"
+    }
+  ]
+}

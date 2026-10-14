@@ -1,0 +1,84 @@
+{
+  "path": "/septic-inspection-marion-nc/",
+  "title": "Septic Inspection in Marion, NC | NC Septic Inspector",
+  "description": "Septic inspections in Marion and McDowell County by Inspector #6007I. Rural wells and septic, Lake James and Lake Tahoma, Foothills Health District records.",
+  "og_image": "woods-excavation",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/septic-inspection-marion-nc/#service",
+        "name": "Septic Inspection in Marion, NC",
+        "serviceType": "Point-of-sale septic system inspection",
+        "url": "https://ncsepticinspector.com/septic-inspection-marion-nc/",
+        "description": "Septic inspections in Marion, NC and McDowell County by NC On-Site Wastewater Inspector #6007I, following 21 NCAC 39: tank located and opened, components evaluated, drain field checked, written report with photos.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Marion, NC",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "McDowell County, NC"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/septic-inspection-marion-nc/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://ncsepticinspector.com/service-areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Marion",
+            "item": "https://ncsepticinspector.com/septic-inspection-marion-nc/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/septic-inspection-marion-nc/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you inspect septic systems at Lake James and Lake Tahoma?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, on the McDowell side as well as the Burke side of Lake James. Lake lots often mean steep grades and tight setbacks from the water; mention it when you book."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "The property flooded in Helene. What will you look for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Settling or sinkholes over the tank and drain field, parts that moved or came to the surface, silt in the tank, effluent on the ground, and anything that limited the inspection. If the system needs more than an inspection, the report refers you to the health district or a certified contractor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where are McDowell County septic permits kept?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "At the Foothills Health District, which runs an online Septic Records Portal for McDowell and Rutherford counties. The Marion office is at 408 Spaulding Rd., 828-652-6811."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

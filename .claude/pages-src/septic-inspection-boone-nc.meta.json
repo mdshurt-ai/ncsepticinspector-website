@@ -1,0 +1,84 @@
+{
+  "path": "/septic-inspection-boone-nc/",
+  "title": "Septic Inspection in Boone, NC | NC Septic Inspector",
+  "description": "Septic inspections in Boone and Watauga County by NC On-Site Wastewater Inspector #6007I. Mountain lots, pump systems, second homes, AppHealthCare permit search.",
+  "og_image": "woods-locating",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/septic-inspection-boone-nc/#service",
+        "name": "Septic Inspection in Boone, NC",
+        "serviceType": "Point-of-sale septic system inspection",
+        "url": "https://ncsepticinspector.com/septic-inspection-boone-nc/",
+        "description": "Septic inspections in Boone, NC and Watauga County by NC On-Site Wastewater Inspector #6007I, following 21 NCAC 39: tank located and opened, components evaluated, drain field checked, written report with photos.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Boone, NC",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Watauga County, NC"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/septic-inspection-boone-nc/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://ncsepticinspector.com/service-areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Boone",
+            "item": "https://ncsepticinspector.com/septic-inspection-boone-nc/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/septic-inspection-boone-nc/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you inspect pump and pressure-distribution systems?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The state's inspection rule covers the pump tank, control panel, alarm and pump operation, and I evaluate all of it. If the power is off at a vacant house, the report says the pump system couldn't be fully evaluated, so have the utilities on."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will frozen ground or snow stop the inspection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It can slow it down. Frozen ground makes digging harder and snow hides the drain field. Tell me the deadline and we'll plan around the weather; I'd rather reschedule a day than report a system I couldn't actually see."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you serve Blowing Rock, Valle Crucis and Deep Gap?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the High Country around Boone is part of my service area. Steep access and long gravel drives are normal here; just let me know what to expect."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

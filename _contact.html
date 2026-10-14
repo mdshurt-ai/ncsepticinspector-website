@@ -1,0 +1,76 @@
+  <!-- Contact -->
+  <section class="section surface-light" id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <div class="sec-head">
+        <p class="kicker">Contact</p>
+        <h2 id="contact-title">Schedule a septic inspection</h2>
+        <p class="lead">Book online in a couple of minutes, call or text for the fastest response, or send a request and I'll get back to you with availability.</p>
+        <div class="contact-actions">
+          <a href="/schedule/" class="btn btn-primary">Book Online</a>
+          <a href="{{SPECTORA_SAMPLE}}" class="btn btn-secondary" target="_blank" rel="noopener">See a sample report</a>
+        </div>
+        <a class="c-item" href="tel:{{TEL}}">
+          <span class="icon-tile"><svg aria-hidden="true"><use href="#i-phone"/></svg></span>
+          <span><small>Call or text</small><strong>{{PHONE}}</strong></span>
+        </a>
+        <a class="c-item" href="mailto:{{EMAIL}}">
+          <span class="icon-tile"><svg aria-hidden="true"><use href="#i-mail"/></svg></span>
+          <span><small>Email</small><strong>{{EMAIL}}</strong></span>
+        </a>
+        {{GOOGLE_RATING_BADGE}}
+        <div class="social" role="group" aria-label="Find the inspector online">
+          <a href="{{GOOGLE_REVIEWS_URL}}" data-social="google" aria-label="Google reviews" title="Google reviews" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#s-google"/></svg></a>
+          <a href="#" data-social="facebook" aria-label="Facebook" title="Facebook"><svg aria-hidden="true"><use href="#s-facebook"/></svg></a>
+          <a href="#" data-social="instagram" aria-label="Instagram" title="Instagram"><svg aria-hidden="true"><use href="#s-instagram"/></svg></a>
+          <a href="#" data-social="youtube" aria-label="YouTube" title="YouTube"><svg aria-hidden="true"><use href="#s-youtube"/></svg></a>
+          <a href="#" data-social="nextdoor" aria-label="Nextdoor" title="Nextdoor"><svg aria-hidden="true"><use href="#s-nextdoor"/></svg></a>
+          <a href="#" data-social="linkedin" aria-label="LinkedIn" title="LinkedIn"><svg aria-hidden="true"><use href="#s-linkedin"/></svg></a>
+        </div>
+      </div>
+
+      <form class="form" name="septic-request" method="POST" data-netlify="true" netlify-honeypot="company" action="/thanks.html">
+        <input type="hidden" name="form-name" value="septic-request">
+        <input type="hidden" name="page" value="{{PATH}}">
+        <p class="hidden" style="display:none"><label>Leave this empty <input name="company"></label></p>
+        <h3>Request a septic inspection</h3>
+        <p class="form-intro">Tell me about the property and I'll reply with availability.</p>
+        <div class="row">
+          <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" required autocomplete="tel"></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+          <div class="field"><label for="f-addr">Property address</label><input id="f-addr" name="address" autocomplete="street-address"></div>
+        </div>
+        <fieldset class="fieldset">
+          <legend>What do you need?</legend>
+          <div class="checks">
+            <label><input type="checkbox" name="services" value="Septic inspection (buying)">Septic inspection, I'm buying</label>
+            <label><input type="checkbox" name="services" value="Pre-listing septic inspection (selling)">Pre-listing inspection, I'm selling</label>
+            <label><input type="checkbox" name="services" value="Septic inspection (owner or refinance)">Owner, refinance or other</label>
+            <label><input type="checkbox" name="services" value="Well water testing">Add well water testing</label>
+            <label class="wide"><input type="checkbox" name="services" value="Home inspection (Inspect-All)">Add a home inspection (through Inspect-All Home Inspections)</label>
+          </div>
+        </fieldset>
+        <div class="row">
+          <div class="field">
+            <label for="f-role">I am a</label>
+            <select id="f-role" name="role">
+              <option value="">Select one</option>
+              <option>Buyer</option>
+              <option>Seller</option>
+              <option>Real estate agent</option>
+              <option>Home inspector</option>
+              <option>Homeowner</option>
+              <option>Attorney or lender</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field"><label for="f-date">Preferred date</label><input id="f-date" name="date" type="date"></div>
+        </div>
+        <div class="field"><label for="f-msg">Anything else?</label><textarea id="f-msg" name="message" rows="4" placeholder="Closing or due diligence date, number of bedrooms, whether the tank location is known, well on the property"></textarea></div>
+        <button class="btn btn-primary btn-block" type="submit">Send request</button>
+        <p class="form-fine">Prefer to talk? Call or text <a class="text-link" href="tel:{{TEL}}">{{PHONE}}</a>.</p>
+      </form>
+    </div>
+  </section>

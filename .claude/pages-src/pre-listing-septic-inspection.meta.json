@@ -1,0 +1,90 @@
+{
+  "path": "/pre-listing-septic-inspection/",
+  "title": "Pre-Listing Septic Inspection for Sellers | NC Septic Inspector",
+  "description": "Pre-listing septic inspections for Western NC sellers. Settle the permitted bedroom count and the system's condition before the buyer's inspector opens the tank.",
+  "og_image": "drainfield-marked",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/pre-listing-septic-inspection/#service",
+        "name": "Pre-Listing Septic Inspection",
+        "serviceType": "Pre-listing septic system inspection for home sellers",
+        "url": "https://ncsepticinspector.com/pre-listing-septic-inspection/",
+        "description": "A point-of-sale septic inspection ordered by the seller before listing: tank located and opened, components evaluated, drain field checked, permitted bedroom count compared with the home, written report with photos for the disclosure package.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Home sellers"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/pre-listing-septic-inspection/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Pre-Listing Septic Inspection",
+            "item": "https://ncsepticinspector.com/pre-listing-septic-inspection/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/pre-listing-septic-inspection/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Will the buyer accept a seller's septic inspection instead of ordering their own?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Some will, some won't, and the buyer's lender may have its own requirement. Either way, the seller has already seen what the buyer's inspector will see. A recent report with photos and a pumping receipt changes the tone of the inspection conversation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I have to disclose what a pre-listing septic inspection finds?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "North Carolina's disclosure statement asks whether there is any problem, malfunction or defect with the septic system, and sellers answer it under the rules of the form. Talk to your agent or attorney about a specific finding. A pre-listing inspection lets you answer from knowledge, with the option to fix things first."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I pump the septic tank before listing my house?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pump it at the inspection, not before. The water level and flow in the tank are part of the evaluation, and pumping ahead of time erases them until the tank refills. Pumping can be arranged for the same visit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if nobody knows where the septic tank is?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "That is common with older homes. The county permit or layout drawing narrows the search when one exists, and locating the tank is part of the inspection. Once it is found and marked, keep that information for the buyer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you also do a pre-listing home inspection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, through Inspect-All Home Inspections, which handles pre-listing home inspections, radon testing and well water testing. All of it can be scheduled for one visit."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

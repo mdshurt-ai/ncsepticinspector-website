@@ -1,0 +1,90 @@
+{
+  "path": "/for-agents/",
+  "title": "Septic Inspections for Agents & Inspectors | NC Septic Inspector",
+  "description": "How agents, home inspectors, attorneys and lenders order a point-of-sale septic inspection in Western NC: what to send, what the client gets, pumping arranged.",
+  "og_image": "excavator-site",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/for-agents/#service",
+        "name": "Septic Inspections Ordered by Agents and Home Inspectors",
+        "serviceType": "Point-of-sale septic inspection ordered on behalf of a client",
+        "url": "https://ncsepticinspector.com/for-agents/",
+        "description": "Septic inspections ordered by real estate agents, home inspectors, attorneys and lenders for their clients in Western North Carolina, following 21 NCAC 39, with pumping arranged for the same visit when the client wants it.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Real estate agents, home inspectors, attorneys and lenders"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/for-agents/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "For Agents & Home Inspectors",
+            "item": "https://ncsepticinspector.com/for-agents/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/for-agents/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who gets the septic inspection report?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The client who ordered the inspection, and the agent when the client has the agent on the order. Reports are delivered electronically with photos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the buyer attend the septic inspection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The end of the inspection is the useful part to attend: the tank is open and the findings are in front of them. If they can't, the photos show the same things."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if the seller refuses to allow digging for the septic inspection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Then the tank can't be opened and the inspection can't meet the state's minimum. The limitation is documented as the rules require, but a septic inspection without access to the tank isn't one a client should rely on. Settle access before the inspection day."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How quickly can a septic inspection be scheduled?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Call with the deadline for an honest answer. Pumping companies and county records add lead time, so the earlier in the due diligence period the better."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you give septic repair estimates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The state rules exclude causes, methods and costs of corrections from the inspection, and the inspector does not do repair work. The report refers the client to the county health department or a certified contractor when a condition warrants it."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "path": "/schedule/",
+  "title": "Book a Septic Inspection Online | NC Septic Inspector",
+  "description": "Book a septic inspection online in Western NC, with pumping arranged for the same visit if you want it. Pick a time and Inspector #6007I will confirm it.",
+  "og_image": "drainfield-marked",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Schedule a septic inspection online",
+    "url": "https://ncsepticinspector.com/schedule/",
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "target": "https://app.spectora.com/home-inspectors/my-inspection-company-2b37bb3619/schedule",
+      "provider": {
+        "@id": "https://ncsepticinspector.com/#business"
+      }
+    }
+  }
+}

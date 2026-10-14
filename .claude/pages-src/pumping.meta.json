@@ -1,0 +1,86 @@
+{
+  "path": "/pumping/",
+  "title": "Septic Pumping with Your Inspection | NC Septic Inspector",
+  "description": "Septic inspection and pumping in one visit in Western NC. Inspection first, a permitted pumping company empties the tank, then it's evaluated empty.",
+  "og_image": "tank-pumping",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/pumping/#service",
+        "name": "Septic Inspection with Pumping Arranged",
+        "serviceType": "Septic inspection with pumping scheduled for the same visit",
+        "url": "https://ncsepticinspector.com/pumping/",
+        "description": "A point-of-sale septic inspection with a permitted pumping company scheduled for the same visit, so the tank is evaluated before and after pumping. The pumping company bills the client directly; the scheduling fee is disclosed up front.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/pumping/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Pumping with the Inspection",
+            "item": "https://ncsepticinspector.com/pumping/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/pumping/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do I have to pump the tank for a septic inspection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The inspection can be done without pumping; the report then carries the statement the state rules require when a client declines to have the tank pumped at inspection. Pumping gives a better look at the tank itself."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who pays the pumping company?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You do, directly, at the pumping company's rate. The inspector does not mark up their work or take a referral fee. The scheduling fee is separate, quoted when you book, and shown on the agreement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should the seller pump the septic tank before listing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not before an inspection. Pump it at the inspection, after the water level and flow have been evaluated. With a pre-listing inspection the pumping receipt becomes part of the disclosure package."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can pumping hide a septic problem?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pumping a day or two before the inspection can. The inspector then sees a near-empty tank and can't judge the water level or whether the drain field is accepting effluent. The order that works is inspect, then pump, then evaluate the empty tank."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if the pumping company finds something?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It goes in the inspection report with photos. If the condition warrants it, the report refers you to the county health department or a certified contractor. The inspector does not do repairs."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

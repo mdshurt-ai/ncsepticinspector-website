@@ -1,0 +1,84 @@
+{
+  "path": "/septic-inspection-conover-nc/",
+  "title": "Septic Inspection in Conover, NC | NC Septic Inspector",
+  "description": "Septic inspections in Conover, NC by NC On-Site Wastewater Inspector #6007I. Newer subdivisions, manufactured homes and rural lots; Catawba County records.",
+  "og_image": "inlet-flow-test",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/septic-inspection-conover-nc/#service",
+        "name": "Septic Inspection in Conover, NC",
+        "serviceType": "Point-of-sale septic system inspection",
+        "url": "https://ncsepticinspector.com/septic-inspection-conover-nc/",
+        "description": "Septic inspections in Conover, NC and Catawba County by NC On-Site Wastewater Inspector #6007I, following 21 NCAC 39: tank located and opened, components evaluated, drain field checked, written report with photos.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Conover, NC",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Catawba County, NC"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/septic-inspection-conover-nc/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://ncsepticinspector.com/service-areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Conover",
+            "item": "https://ncsepticinspector.com/septic-inspection-conover-nc/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/septic-inspection-conover-nc/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does a 1990s septic system still need an inspection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Age is only one factor. Baffles, tees, filters and lines fail on their own schedule, roots don't care what year a tank was poured, and the bedroom count on the permit may not match the house today."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you inspect manufactured-home septic systems in Conover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The first thing I compare is the permit's bedroom count with the home as it stands, additions included, because that's where manufactured-home systems most often fall short."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where are Conover's septic permits?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With Catawba County Environmental Health in Newton. Request a copy of an existing permit online through the county's Environmental Health forms page, or email EHAdmin@catawbacountync.gov."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

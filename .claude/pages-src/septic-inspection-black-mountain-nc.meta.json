@@ -1,0 +1,84 @@
+{
+  "path": "/septic-inspection-black-mountain-nc/",
+  "title": "Septic Inspection in Black Mountain, NC | NC Septic Inspector",
+  "description": "Septic inspections in Black Mountain, Swannanoa and eastern Buncombe County by Inspector #6007I. Systems older than county records, Helene flood lots.",
+  "og_image": "pipe-interior",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://ncsepticinspector.com/septic-inspection-black-mountain-nc/#service",
+        "name": "Septic Inspection in Black Mountain, NC",
+        "serviceType": "Point-of-sale septic system inspection",
+        "url": "https://ncsepticinspector.com/septic-inspection-black-mountain-nc/",
+        "description": "Septic inspections in Black Mountain, NC and Buncombe County by NC On-Site Wastewater Inspector #6007I, following 21 NCAC 39: tank located and opened, components evaluated, drain field checked, written report with photos.",
+        "provider": {
+          "@id": "https://ncsepticinspector.com/#business"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Black Mountain, NC",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Buncombe County, NC"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ncsepticinspector.com/septic-inspection-black-mountain-nc/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ncsepticinspector.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://ncsepticinspector.com/service-areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Black Mountain",
+            "item": "https://ncsepticinspector.com/septic-inspection-black-mountain-nc/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ncsepticinspector.com/septic-inspection-black-mountain-nc/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "The county has no septic permit for the house. Is that a problem?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not by itself. Buncombe County didn't issue septic permits before 1977, so older systems simply predate the files. The inspection establishes the system's location and condition on site, and the report states that no record was available."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you cover Swannanoa, Montreat and Ridgecrest?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Eastern Buncombe County, from Swannanoa through Black Mountain to Ridgecrest and Montreat, is part of my service area. Steep access is normal; tell me what to expect."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I search Buncombe County septic records myself?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, on the county's online development portal, without registering. Search by parcel number first; older parcel numbers sometimes find older permits. The county posts a search guide that explains the tricks."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
