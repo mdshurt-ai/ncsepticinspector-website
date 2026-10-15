@@ -1,6 +1,6 @@
 # NC Septic Inspector website (ncsepticinspector.com)
 
-Septic-only sister site of Inspect-All Home Inspections (inspectallnc.com). Static site; Netlify publishes this repository as-is on every push.
+Septic-only sister site of Inspect-All Home Inspections (inspectallnc.com). Static site; Netlify project `nc-septic-inspector` publishes this repository as-is on every push to `main`.
 
 Sources (edit these, never the built pages):
 - `_home.html`, `_template.html`, `_contact.html`, `_icons.html`, `_404.html`, `_thanks.html`
